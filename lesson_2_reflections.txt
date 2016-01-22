@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Git realizes that you would like it to track the files in your
+	directory and sets up the environment to do so. You need to do
+	this so Git knows which files it should track and which ones
+	you do not want to track. 
