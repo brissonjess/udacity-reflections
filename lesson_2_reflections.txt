@@ -7,3 +7,5 @@
 	It is the in between point where you can add your file(s)
 	that you want tracked, make changes to them, and then
 	commit the changes into the working directory / repository.
+3.) How can you use the staging area to make sure you have one commit per logical change?
+	You can compare the status of the files that have been moved to staging to the ones that are in the repository and the working directory. By seeing what changes have been commited to each of the files a developer can better determine which documents should be considered a logical change.
