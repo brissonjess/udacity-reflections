@@ -22,3 +22,6 @@
 	If you change the branch to a specific branch name without giving a name to the temporary one then that branch is lost, unless you saved the ID. By understanding how branches store changes then you can better understand how merging works, which is going to be discussed later in the course. 
 6.) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	The result of merging two branches together is creating an updated production quality file that you can use for your development project. This is how a project inches closer to completion. The diagrams are represented in a with circles and lines because it creates a small map that shows the progressions the development process has taken. 
+7.) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros: a lot of tedious work is already done for you. It would be a big pain if you had to go through and approve every commit change one-by-one. 
+	Cons: You have to be very aware of conflicts that do arrise out of an autmatic merging process. if you try to merge into the wrong branch and then your program could become corrupt (like I did to the coins branch, haha). So when dealing with mergin conflicts make sure that you abort the merge or deal with any conflicts before you completly commit the merge. 
