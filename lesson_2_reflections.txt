@@ -16,3 +16,7 @@
 	-development branch is where you do a lot of your work
 	-then you might have a experimental or unique feature branch that you want to share with people with the understanding that these are not production quality changes
 	-also good if you're collabertating with yourself, branches allow you to context switch. If you are working on a new development feature and you notice a bug then you can switch to a different context, fix the bug, and then go back to you development branch and continue working on your feature. 
+5.) How do the diagrams help you visualize the branch structure?
+	The diagrams helped me visualize how the most recent commit in git always has a parent. The parent contains all of the previous changes. When you check out an old commit you enter a detached head state, which means you are creating a temporary branch. You can make the temporary branch a real one by using: 
+		git checkout -b [new_branch_name]
+	If you change the branch to a specific branch name without giving a name to the temporary one then that branch is lost, unless you saved the ID. By understanding how branches store changes then you can better understand how merging works, which is going to be discussed later in the course. 
