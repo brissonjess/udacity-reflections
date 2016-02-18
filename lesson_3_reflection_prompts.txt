@@ -8,4 +8,6 @@
 	Branches: Branches are a division of your repository. They allow you to work on different segments of a project without affecting the master production file. 
 	It would be good to use a branch when you want to test or add a new feature to a project. You would want to clone a repository when you want to work on a project on your local machine. And it would be great to Fork a repository when you want to add to a project that you found online. 
 4.) What is the benefit of having a copy of the last known state of the remote stored locally?
-	Have the last known state of a remote stored locally allows you to backup your work and ensure that you and your collaborators are working on an up to date file. 
+	Have the last known state of a remote stored locally allows you to backup your work and ensure that you and your collaborators are working on an up to date file.
+5.) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
+	I suppose you could use a spreadsheet to log all of the requests, pulls, branches, collaberators and project updates. But that would make for a lot of reading and book keeping. Git and Github already store who is working on a branch and the changes / commits they have made to it. Since the two management systems do a lot of the grunt work for you I couldn't imagine using a different system. 
